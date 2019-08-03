@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+	<head>
+		<title>GIT笔记 &middot; 烟波浩渺</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/assets/css/main.css' />
+		<link rel="shortcut icon" href="./images/logo.png">
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">烟波浩渺</a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        
+        <li><a href='/'>首页</a></li>
+        
+        
+
+        
+        
+            
+                <li>
+                    <a href="/tags/">
+                        
+                        <span>标签</span>
+                    </a>
+                </li>
+            
+        
+            
+                <li>
+                    <a href="/author/">
+                        
+                        <span>博主</span>
+                    </a>
+                </li>
+            
+        
+
+
+
+        
+        
+    </ul>
+
+
+
+    
+    <ul class="icons">
+        
+        <li><a href="https://github.com/mistethereal/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">2018-11-26</span>
+                                
+                                <h1>GIT笔记</h1>
+                                <p>市面上的git教程确实又多又全，但对于新手，很多时候他们想要的只是一份——傻瓜操作手册</p>
+                            </header>
+                            
+                            <p>查看Git配置</p>
+
+<pre><code>git config --list
+</code></pre>
+
+<p><br/></p>
+
+<p>配置Git帐号</p>
+
+<pre><code>git config --global user.name &quot;XXX&quot;  
+git config --global user.email &quot;XXX@XXX.XXX&quot;
+</code></pre>
+
+<p><br/></p>
+
+<p>生成密钥（将id_rsa.pub中的内容复制到GitHub的SSH Key中）</p>
+
+<pre><code>ssh-keygen -t rsa -C &quot;XXX@XXX.XXX&quot;
+</code></pre>
+
+<p><br/></p>
+
+<p>测试是否成功连接到GitHub</p>
+
+<pre><code>ssh -T git@github.com
+</code></pre>
+
+<p><br/></p>
+
+<p>git化当前文件夹</p>
+
+<pre><code>git init
+</code></pre>
+
+<p><br/></p>
+
+<p>配置上传的远程位置，XXX为github用户名，YYY为repo名</p>
+
+<pre><code>git remote add origin git@github.com:XXX/YYY.git
+</code></pre>
+
+<p><br/></p>
+
+<p>（上一步输入错误时）移除当前设置的上传目录</p>
+
+<pre><code>git remote rm origin
+</code></pre>
+
+<p><br/></p>
+
+<p>暂存本地所有改动</p>
+
+<pre><code>git add -A
+</code></pre>
+
+<p><br /></p>
+
+<p>认可本地所有改动，备注为none</p>
+
+<pre><code>git commit -a -m &quot;none&quot;
+</code></pre>
+
+<p><br/></p>
+
+<p>上传</p>
+
+<pre><code>git push
+</code></pre>
+
+<p><br/></p>
+
+<p>强制push</p>
+
+<pre><code>git push -u origin master -f
+</code></pre>
+
+
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section class="split contact">
+        
+        
+        
+        
+        <section>
+            
+            <ul class="icons alt">
+                
+                <li><a href="https://github.com/mistethereal/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                
+                <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; 烟波浩渺</li><li>Designed by <a href="https://html5up.net">HTML5UP</a></li><li>Modified by <a href="https://github.com/mistethereal">Ethereal</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/assets/js/jquery.min.js'></script>
+<script src='/assets/js/jquery.scrollex.min.js'></script>
+<script src='/assets/js/jquery.scrolly.min.js'></script>
+<script src='/assets/js/browser.min.js'></script>
+<script src='/assets/js/breakpoints.min.js'></script>
+<script src='/assets/js/util.js'></script>
+<script src='/assets/js/main.js'></script>
+
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode on 烟波浩渺</title>
+    <link>https://mistethereal.github.io/tags/leetcode/</link>
+    <description>Recent content in LeetCode on 烟波浩渺</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mistethereal.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LeetCode-Go-7: Reverse Integer</title>
+      <link>https://mistethereal.github.io/2019/07/leetcode-go-7-reverse-integer/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2019/07/leetcode-go-7-reverse-integer/</guid>
+      <description>Example: Input: 120
+Output: 21
+Solution：  import ( &amp;quot;math&amp;quot; ) func reverse(x int) int { sign := 1 // 若遇到负数，先暂时转正 if x &amp;lt; 0 { sign = -1 x = -1 * x } // 预设反转后的数rvs为0 rvs := 0 // 直到将x的所有数字全部去掉之前 for x &amp;gt; 0 { // 通过取余逐个获取x的末尾数res res := x % 10 // 将res放到rvs的首位 rvs = rvs*10 + res // 每次完成后去掉x末尾数（go的整数除法所得商向下取整，整数与点数相除所得商转为点数） x = x / 10 } // 还原x的符号到rvs rvs = sign * rvs // 处理rvs的溢出 if rvs &amp;gt; math.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-Go-1: Two Sum</title>
+      <link>https://mistethereal.github.io/2019/07/leetcode-go-1-two-sum/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2019/07/leetcode-go-1-two-sum/</guid>
+      <description> Example: Given nums = [2, 7, 11, 15], target = 9,
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+Solution：  func twoSum(nums []int, target int) []int { // index是初始为空，以给定数组nums的数值为键、序数为值的map字典，长度和nums一样 index := make(map[int]int, len(nums)) // 对于数组nums中逐个序数为j的数b for j, b := range nums { // 搜索字典index中（初始为空）是否包含与target-b相等的数；若能找到则返回序数数组[i, j] if i, ok := index[target-b]; ok { return []int{i, j} } // 没找到的情况下，将键值对b和j存入字典index，用于下一次搜索，故本质是利用index逐个复制数组nums，执行前向搜索 // 注意，下行代码不能置于搜索之前，否则当target-b=b时会因重复取用b而bug index[b] = j } return nil }  </description>
+    </item>
+    
+  </channel>
+</rss>

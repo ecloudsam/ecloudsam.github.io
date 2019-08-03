@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+	<head>
+		<title>缥缈古卷 风篇 &middot; 烟波浩渺</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/assets/css/main.css' />
+		<link rel="shortcut icon" href="./images/logo.png">
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">烟波浩渺</a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        
+        <li><a href='/'>首页</a></li>
+        
+        
+
+        
+        
+            
+                <li>
+                    <a href="/tags/">
+                        
+                        <span>标签</span>
+                    </a>
+                </li>
+            
+        
+            
+                <li>
+                    <a href="/author/">
+                        
+                        <span>博主</span>
+                    </a>
+                </li>
+            
+        
+
+
+
+        
+        
+    </ul>
+
+
+
+    
+    <ul class="icons">
+        
+        <li><a href="https://github.com/mistethereal/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">1024-10-24</span>
+                                
+                                <h1>缥缈古卷 风篇</h1>
+                                <p></p>
+                            </header>
+                            
+                            
+
+<h3 id="windows禁止休眠">Windows禁止休眠</h3>
+
+<p>系统无人值守时睡眠时间的设定，默认是2分钟。解决方法：<br />
+1.运行注册表管理器，win+r ，输入regedit.exe<br />
+2.定位到<br />
+&gt;HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0</p>
+
+<p>3.修改attributes的值为2<br />
+4.进入高级电源设置，在睡眠选项中会出现“无人参与系统睡眠超时”，将默认的2分钟修改成你想要的时间</p>
+
+<h3 id="隐写术">隐写术</h3>
+
+<p>先制作一个1.zip，把想要隐藏的东西放进去<br />
+再找一张jpg图片2.jpg，然后执行命令：copy /b 2.jpg+1.zip output.jpg<br />
+两个文件以二进制方式被连接，生成output.jpg的新文件（图种）<br />
+利用winhex等软件可以看到正常jpg结尾都是以十六进制的FF D9结尾，图片查看器会忽略结束符之后的内容，所以附加的zip不会影响图像的正常显示</p>
+
+<h3 id="windows配置path">Windows配置Path</h3>
+
+<p>win10为例：我的电脑-属性-高级系统设置-高级-环境变量-Path-编辑</p>
+
+<h3 id="windows默认查看方式">Windows默认查看方式</h3>
+
+<p>查看-选项-查看-应用到文件夹</p>
+
+<h3 id="linux硬盘gpt分区">Linux硬盘GPT分区</h3>
+
+<blockquote>
+<p>parted /dev/sda</p>
+</blockquote>
+
+<h3 id="windows外接显示器独显配置">Windows外接显示器独显配置</h3>
+
+<p>右键-显示设置-多显示器设置-仅在2上显示<br />
+控制面板-Nvidia控制面板-管理3D设置-程序设置-自定义程序中添加游戏-OpenGL渲染改为独显</p>
+
+
+                            
+                            
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section class="split contact">
+        
+        
+        
+        
+        <section>
+            
+            <ul class="icons alt">
+                
+                <li><a href="https://github.com/mistethereal/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                
+                <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; 烟波浩渺</li><li>Designed by <a href="https://html5up.net">HTML5UP</a></li><li>Modified by <a href="https://github.com/mistethereal">Ethereal</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/assets/js/jquery.min.js'></script>
+<script src='/assets/js/jquery.scrollex.min.js'></script>
+<script src='/assets/js/jquery.scrolly.min.js'></script>
+<script src='/assets/js/browser.min.js'></script>
+<script src='/assets/js/breakpoints.min.js'></script>
+<script src='/assets/js/util.js'></script>
+<script src='/assets/js/main.js'></script>
+
+	</body>
+</html>

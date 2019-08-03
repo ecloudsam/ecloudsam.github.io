@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+	<head>
+		<title>LeetCode-Go-7: Reverse Integer &middot; 烟波浩渺</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/assets/css/main.css' />
+		<link rel="shortcut icon" href="./images/logo.png">
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">烟波浩渺</a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        
+        <li><a href='/'>首页</a></li>
+        
+        
+
+        
+        
+            
+                <li>
+                    <a href="/tags/">
+                        
+                        <span>标签</span>
+                    </a>
+                </li>
+            
+        
+            
+                <li>
+                    <a href="/author/">
+                        
+                        <span>博主</span>
+                    </a>
+                </li>
+            
+        
+
+
+
+        
+        
+    </ul>
+
+
+
+    
+    <ul class="icons">
+        
+        <li><a href="https://github.com/mistethereal/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">2019-07-22</span>
+                                
+                                <h1>LeetCode-Go-7: Reverse Integer</h1>
+                                <p>数字反转</p>
+                            </header>
+                            
+                            
+
+<h2 id="example">Example:</h2>
+
+<p>Input: 120<br />
+Output: 21</p>
+
+<h2 id="solution">Solution：</h2>
+
+<pre><code>
+import (
+	&quot;math&quot;
+)
+
+func reverse(x int) int {
+	sign := 1
+
+	// 若遇到负数，先暂时转正
+	if x &lt; 0 {
+		sign = -1
+		x = -1 * x
+	}
+
+    // 预设反转后的数rvs为0
+	rvs := 0
+    
+    // 直到将x的所有数字全部去掉之前
+	for x &gt; 0 {
+		// 通过取余逐个获取x的末尾数res
+		res := x % 10
+		// 将res放到rvs的首位
+		rvs = rvs*10 + res
+		// 每次完成后去掉x末尾数（go的整数除法所得商向下取整，整数与点数相除所得商转为点数）
+		x = x / 10
+	}
+
+	// 还原x的符号到rvs
+	rvs = sign * rvs
+
+	// 处理rvs的溢出
+	if rvs &gt; math.MaxInt32 || rvs &lt; math.MinInt32 {
+		rvs = 0
+	}
+
+	return rvs
+}
+
+</code></pre>
+
+
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section class="split contact">
+        
+        
+        
+        
+        <section>
+            
+            <ul class="icons alt">
+                
+                <li><a href="https://github.com/mistethereal/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                
+                <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; 烟波浩渺</li><li>Designed by <a href="https://html5up.net">HTML5UP</a></li><li>Modified by <a href="https://github.com/mistethereal">Ethereal</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/assets/js/jquery.min.js'></script>
+<script src='/assets/js/jquery.scrollex.min.js'></script>
+<script src='/assets/js/jquery.scrolly.min.js'></script>
+<script src='/assets/js/browser.min.js'></script>
+<script src='/assets/js/breakpoints.min.js'></script>
+<script src='/assets/js/util.js'></script>
+<script src='/assets/js/main.js'></script>
+
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on 烟波浩渺</title>
+    <link>https://mistethereal.github.io/tags/git/</link>
+    <description>Recent content in Git on 烟波浩渺</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mistethereal.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React GitPage</title>
+      <link>https://mistethereal.github.io/2018/12/react-gitpage/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2018/12/react-gitpage/</guid>
+      <description>GitHub网站上新建三空repo（readme，gitignore，licnese）
+
+新建名为YYY的React应用
+create-react-app YYY  
+进入YYY文件夹，安装gh-pages包
+npm install gh-pages --save-dev  
+修改package.json文件：
+根字典中添加（XXX为github用户名，YYY为repo名）：
+&amp;quot;homepage&amp;quot;: &amp;quot;http://XXX.github.io/YYY&amp;quot;  Script字典中添加：
+&amp;quot;predeploy&amp;quot;: &amp;quot;npm run build&amp;quot;, &amp;quot;deploy&amp;quot;: &amp;quot;gh-pages -d build&amp;quot;  
+git化当前文件夹
+git init  
+配置上传的远程位置，XXX为github用户名，YYY为repo名
+git remote add origin https://github.com/XXX/YYY.git  
+上传
+npm run deploy</description>
+    </item>
+    
+    <item>
+      <title>GIT笔记</title>
+      <link>https://mistethereal.github.io/2018/11/git%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2018/11/git%E7%AC%94%E8%AE%B0/</guid>
+      <description>查看Git配置
+git config --list  
+配置Git帐号
+git config --global user.name &amp;quot;XXX&amp;quot; git config --global user.email &amp;quot;XXX@XXX.XXX&amp;quot;  
+生成密钥（将id_rsa.pub中的内容复制到GitHub的SSH Key中）
+ssh-keygen -t rsa -C &amp;quot;XXX@XXX.XXX&amp;quot;  
+测试是否成功连接到GitHub
+ssh -T git@github.com  
+git化当前文件夹
+git init  
+配置上传的远程位置，XXX为github用户名，YYY为repo名
+git remote add origin git@github.com:XXX/YYY.git  
+（上一步输入错误时）移除当前设置的上传目录
+git remote rm origin  
+暂存本地所有改动
+git add -A  
+认可本地所有改动，备注为none
+git commit -a -m &amp;quot;none&amp;quot;  
+上传
+git push</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+	<head>
+		<title>React GitPage &middot; 烟波浩渺</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/assets/css/main.css' />
+		<link rel="shortcut icon" href="./images/logo.png">
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">烟波浩渺</a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        
+        <li><a href='/'>首页</a></li>
+        
+        
+
+        
+        
+            
+                <li>
+                    <a href="/tags/">
+                        
+                        <span>标签</span>
+                    </a>
+                </li>
+            
+        
+            
+                <li>
+                    <a href="/author/">
+                        
+                        <span>博主</span>
+                    </a>
+                </li>
+            
+        
+
+
+
+        
+        
+    </ul>
+
+
+
+    
+    <ul class="icons">
+        
+        <li><a href="https://github.com/mistethereal/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">2018-12-15</span>
+                                
+                                <h1>React GitPage</h1>
+                                <p></p>
+                            </header>
+                            
+                            <p>GitHub网站上新建三空repo（readme，gitignore，licnese）<br />
+<br/></p>
+
+<p>新建名为YYY的React应用</p>
+
+<pre><code>create-react-app YYY
+</code></pre>
+
+<p><br/></p>
+
+<p>进入YYY文件夹，安装gh-pages包</p>
+
+<pre><code>npm install gh-pages --save-dev
+</code></pre>
+
+<p><br/></p>
+
+<p>修改package.json文件：<br />
+根字典中添加（XXX为github用户名，YYY为repo名）：</p>
+
+<pre><code>&quot;homepage&quot;: &quot;http://XXX.github.io/YYY&quot;
+</code></pre>
+
+<p>Script字典中添加：</p>
+
+<pre><code>&quot;predeploy&quot;: &quot;npm run build&quot;,
+&quot;deploy&quot;: &quot;gh-pages -d build&quot;
+</code></pre>
+
+<p><br/></p>
+
+<p>git化当前文件夹</p>
+
+<pre><code>git init
+</code></pre>
+
+<p><br/></p>
+
+<p>配置上传的远程位置，XXX为github用户名，YYY为repo名</p>
+
+<pre><code>git remote add origin https://github.com/XXX/YYY.git
+</code></pre>
+
+<p><br/></p>
+
+<p>上传</p>
+
+<pre><code>npm run deploy
+</code></pre>
+
+<p><br/></p>
+
+
+                            
+                            
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section class="split contact">
+        
+        
+        
+        
+        <section>
+            
+            <ul class="icons alt">
+                
+                <li><a href="https://github.com/mistethereal/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                
+                <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; 烟波浩渺</li><li>Designed by <a href="https://html5up.net">HTML5UP</a></li><li>Modified by <a href="https://github.com/mistethereal">Ethereal</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/assets/js/jquery.min.js'></script>
+<script src='/assets/js/jquery.scrollex.min.js'></script>
+<script src='/assets/js/jquery.scrolly.min.js'></script>
+<script src='/assets/js/browser.min.js'></script>
+<script src='/assets/js/breakpoints.min.js'></script>
+<script src='/assets/js/util.js'></script>
+<script src='/assets/js/main.js'></script>
+
+	</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+	<head>
+		<title>LeetCode-Go-1: Two Sum &middot; 烟波浩渺</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/assets/css/main.css' />
+		<link rel="shortcut icon" href="./images/logo.png">
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">烟波浩渺</a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        
+        <li><a href='/'>首页</a></li>
+        
+        
+
+        
+        
+            
+                <li>
+                    <a href="/tags/">
+                        
+                        <span>标签</span>
+                    </a>
+                </li>
+            
+        
+            
+                <li>
+                    <a href="/author/">
+                        
+                        <span>博主</span>
+                    </a>
+                </li>
+            
+        
+
+
+
+        
+        
+    </ul>
+
+
+
+    
+    <ul class="icons">
+        
+        <li><a href="https://github.com/mistethereal/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">2019-07-20</span>
+                                
+                                <h1>LeetCode-Go-1: Two Sum</h1>
+                                <p>给定一个数组和目标数，找出相加等于目标数的两数在给定数组中的序数</p>
+                            </header>
+                            
+                            
+
+<h2 id="example">Example:</h2>
+
+<p>Given nums = [2, 7, 11, 15], target = 9,<br />
+Because nums[0] + nums[1] = 2 + 7 = 9,<br />
+return [0, 1].</p>
+
+<h2 id="solution">Solution：</h2>
+
+<pre><code>
+func twoSum(nums []int, target int) []int {
+    
+	// index是初始为空，以给定数组nums的数值为键、序数为值的map字典，长度和nums一样
+	index := make(map[int]int, len(nums))
+
+	// 对于数组nums中逐个序数为j的数b
+	for j, b := range nums {
+        
+		// 搜索字典index中（初始为空）是否包含与target-b相等的数；若能找到则返回序数数组[i, j]
+		if i, ok := index[target-b]; ok {
+			return []int{i, j}
+		}
+
+		// 没找到的情况下，将键值对b和j存入字典index，用于下一次搜索，故本质是利用index逐个复制数组nums，执行前向搜索
+		// 注意，下行代码不能置于搜索之前，否则当target-b=b时会因重复取用b而bug
+		index[b] = j
+	}
+
+	return nil
+}
+
+</code></pre>
+
+
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section class="split contact">
+        
+        
+        
+        
+        <section>
+            
+            <ul class="icons alt">
+                
+                <li><a href="https://github.com/mistethereal/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                
+                <li><a href="https://www.youtube.com/channel/UCgyxBUhjLw4aE_nmxm4O0Jw/" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; 烟波浩渺</li><li>Designed by <a href="https://html5up.net">HTML5UP</a></li><li>Modified by <a href="https://github.com/mistethereal">Ethereal</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/assets/js/jquery.min.js'></script>
+<script src='/assets/js/jquery.scrollex.min.js'></script>
+<script src='/assets/js/jquery.scrolly.min.js'></script>
+<script src='/assets/js/browser.min.js'></script>
+<script src='/assets/js/breakpoints.min.js'></script>
+<script src='/assets/js/util.js'></script>
+<script src='/assets/js/main.js'></script>
+
+	</body>
+</html>
