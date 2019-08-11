@@ -480,7 +480,9 @@ Windows配置Path win10为例：我的电脑-属性-高级系统设置-高级-�
 Windows默认查看方式 查看-选项-查看-应用到文件夹
 Linux硬盘GPT分区  parted /dev/sda
  Windows外接显示器独显配置 右键-显示设置-多显示器设置-仅在2上显示
-控制面板-Nvidia控制面板-管理3D设置-程序设置-自定义程序中添加游戏-OpenGL渲染改为独显</description>
+控制面板-Nvidia控制面板-管理3D设置-程序设置-自定义程序中添加游戏-OpenGL渲染改为独显
+根证书 Windows+R，然后输入certmgr.msc
+受信任的根证书颁发机构-证书，找到“ROOTCA”，右键属性，选择“禁用此证书的所有目的”</description>
     </item>
     
   </channel>
