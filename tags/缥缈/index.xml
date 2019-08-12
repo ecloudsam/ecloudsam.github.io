@@ -123,7 +123,8 @@ Linux硬盘GPT分区  parted /dev/sda
  Windows外接显示器独显配置 右键-显示设置-多显示器设置-仅在2上显示
 控制面板-Nvidia控制面板-管理3D设置-程序设置-自定义程序中添加游戏-OpenGL渲染改为独显
 根证书 Windows+R，然后输入certmgr.msc
-受信任的根证书颁发机构-证书，找到“ROOTCA”，右键属性，选择“禁用此证书的所有目的”</description>
+受信任的根证书颁发机构-证书，找到“ROOTCA”，右键属性，选择“禁用此证书的所有目的”
+LibreOffice禁用OpenGL 工具-选项-LibreOffice-视图，“为所有渲染使用OpenGL”不勾选</description>
     </item>
     
   </channel>
