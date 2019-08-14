@@ -98,7 +98,8 @@ Kernel与Shell 操作系统通过Kernel控制硬件
 USB3.0与TypeC USB是线路类型，Type是接口类型；高速公路和收费站的区别
 Redux.js Web-VBD模型：餐厅restaurant（餐桌table+员工waiter），厨房kitchen（什么what+怎么how），冰箱fridge
 员工组件：食物-预备-点单-烹饪-跑堂
-两种食材：生菜（厨房可以加工生菜），熟食（餐桌只能接收熟食）</description>
+两种食材：生菜（厨房可以加工生菜），熟食（餐桌只能接收熟食）
+ASCII ASCII中每个字符对应一个字节，即八比特（8个二进制数）</description>
     </item>
     
     <item>
