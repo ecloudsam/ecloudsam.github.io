@@ -100,7 +100,8 @@ Redux.js Web-VBD模型：餐厅restaurant（餐桌table+员工waiter），厨房
 员工组件：食物-预备-点单-烹饪-跑堂
 两种食材：生菜（厨房可以加工生菜），熟食（餐桌只能接收熟食）
 ASCII码 ASCII中每个字符对应一个字节，即八比特（8个二进制数）
-量词 严格意义上的量词是不能用形容词修饰的，例如：一大升水</description>
+量词 严格意义上的量词是不能用形容词修饰的，例如：一大升水
+Var与CVaR 99%把握损失VaR以内；若1%不幸发生，将损失CVaR</description>
     </item>
     
     <item>
