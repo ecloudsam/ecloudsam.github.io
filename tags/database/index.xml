@@ -6,10 +6,27 @@
     <description>Recent content in database on 烟波浩渺</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mistethereal.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>数据库语言规范</title>
+      <link>https://mistethereal.github.io/2019/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2019/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83/</guid>
+      <description>3项以下，同行
+3项及上，换行缩进
+采用&amp;rdquo;而非&amp;rdquo;&amp;rdquo;
+采用!=而非&amp;lt;&amp;gt;
+采用inner join而非join
+采用共用表而非子查询
+命名采用全小写加下划线
+二值以is_前缀
+尽量避免使用别名，若要使用不可省略as</description>
+    </item>
     
     <item>
       <title>数据库设计准则</title>
@@ -33,23 +50,6 @@
 学号：姓名，班级
 班级：班主任
 课程：课程学分</description>
-    </item>
-    
-    <item>
-      <title>数据库语言规范</title>
-      <link>https://mistethereal.github.io/2019/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83/</link>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mistethereal.github.io/2019/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83/</guid>
-      <description>3项以下，同行
-3项及上，换行缩进
-采用&amp;rdquo;而非&amp;rdquo;&amp;rdquo;
-采用!=而非&amp;lt;&amp;gt;
-采用inner join而非join
-采用共用表而非子查询
-命名采用全小写加下划线
-二值以is_前缀
-尽量避免使用别名，若要使用不可省略as</description>
     </item>
     
   </channel>
