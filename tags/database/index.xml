@@ -22,7 +22,6 @@
 采用&amp;rsquo;而非&amp;rdquo;
 采用!=而非&amp;lt;&amp;gt;
 采用inner join而非join
-采用共用表而非子查询
 命名采用全小写加下划线
 二值以is_前缀
 尽量避免使用别名，若要使用不可省略as</description>
