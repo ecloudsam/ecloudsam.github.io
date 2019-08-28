@@ -473,7 +473,8 @@ Redux.js Web-VBD模型：餐厅restaurant（餐桌table+员工waiter），厨房
 两种食材：生菜（厨房可以加工生菜），熟食（餐桌只能接收熟食）
 ASCII码 ASCII中每个字符对应一个字节，即八比特（8个二进制数）
 量词 严格意义上的量词是不能用形容词修饰的，例如：一大升水
-Var与CVaR 99%把握损失VaR以内；若1%不幸发生，将损失CVaR</description>
+Var与CVaR 99%把握损失VaR以内；若1%不幸发生，将损失CVaR
+信息熵与基尼指数 基尼指数公式不涉及对数，计算较为简便</description>
     </item>
     
     <item>
