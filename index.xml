@@ -88,7 +88,10 @@ receipt：收据
 exception，exemption exception：例外
 exemption：免除
 bit，byte bit：位（1个二进制数）
-byte：位节（二进制数组，通常一组8个）</description>
+byte：位节（二进制数组，通常一组8个）
+Jacobi，Hesse Jacobi：雅口比
+Hesse：黑瑟
+Holmes Holmes：侯姆斯</description>
     </item>
     
     <item>
@@ -483,7 +486,8 @@ Redux.js Web-VBD模型：餐厅restaurant（餐桌table+员工waiter），厨房
 ASCII码 ASCII中每个字符对应一个字节，即八比特（8个二进制数）
 量词 严格意义上的量词是不能用形容词修饰的，例如：一大升水
 Var与CVaR 99%把握损失VaR以内；若1%不幸发生，将损失CVaR
-信息熵与基尼指数 基尼指数公式不涉及对数，计算较为简便</description>
+信息熵与基尼指数 基尼指数公式不涉及对数，计算较为简便
+梯度与雅口比矩阵 梯度是雅口比矩阵在目标函数非向量时的特例</description>
     </item>
     
     <item>
