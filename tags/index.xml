@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 烟波浩渺</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mistethereal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DOTA</title>
+      <link>https://mistethereal.github.io/tags/dota/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/tags/dota/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>database</title>
