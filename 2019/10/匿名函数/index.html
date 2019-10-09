@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang='en'>
 	<head>
-		<title>绝别伊甸 &middot; 烟波浩渺</title>
+		<title>匿名函数 &middot; 烟波浩渺</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href='/assets/css/main.css' />
@@ -78,31 +78,32 @@
                         <section class="post">
                             <header class="major">
                                 
-                                <span class="date">2019-10-06</span>
+                                <span class="date">2019-10-07</span>
                                 
-                                <h1>绝别伊甸</h1>
+                                <h1>匿名函数</h1>
                                 <p></p>
                             </header>
                             
                             
 
-<h3 id="尾声">尾声</h3>
+<p>匿名函数是不必费心取名的函数，它使代码看上去简洁，但可能降低可读性<br />
+以Scala为例：</p>
 
-<p>三月12日，岚皇高中主教学楼前</p>
+<h3 id="标准函数写法">标准函数写法：</h3>
 
-<p>或许是双树之战影响了日本的气候，今年的樱花盛开的比往年都要早，三月伊始便已樱落缤纷，花瓣在微风的轻抚下缓缓飘落，好像一个个精灵在空中旋转舞动，似雪如蝶，为原本略显沉闷的校舍缀上了一抹粉色的跃动。</p>
+<pre><code>def addOne = new Function1[Int,Int]{  
+    def apply(x:Int):Int = x+1;  
+} 
+</code></pre>
 
-<p>今天是高考公榜日，大群学生挤在教学楼前焦急的搜索着自己的姓名。而在教学楼另一侧，两个人影一前一后，从侧门缓缓步出校园。</p>
+<h3 id="匿名函数写法">匿名函数写法：</h3>
 
-<p>“啊……能通过真是太幸运了。”走在后面的JY略带余悸的仰天轻叹，“半年多没来学校，真担心通不过。”</p>
+<pre><code>var addOne = (x:Int) =&gt; x+1
+</code></pre>
 
-<p>“按照我们的出勤天数，连考试资格都没，ZH帮忙动用上头关系拿到的资格，这样还通不过就不用拯救世界了。”身为优等不良生的ZG满不在乎的说道。</p>
-
-<p>“也是，”JY将考试成绩放进书包，“连ZM先生都特地为我们作突击辅导，若是没通过，恐怕得向他跪地谢罪了。”</p>
-
-<p>to be continued……</p>
-
-<h3 id="初始">初始</h3>
+<p>注：<br />
+Scala声明方法和函数分别使用def和var/val，函数声明无须声明返回类型<br />
+Function1表示函数输入参数数量为1</p>
 
 
                             

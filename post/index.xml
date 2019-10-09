@@ -6,10 +6,32 @@
     <description>Recent content in Posts on 烟波浩渺</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mistethereal.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>寄存-缓存-软存-硬存-外存</title>
+      <link>https://mistethereal.github.io/2019/10/%E5%AF%84%E5%AD%98-%E7%BC%93%E5%AD%98-%E8%BD%AF%E5%AD%98-%E7%A1%AC%E5%AD%98-%E5%A4%96%E5%AD%98/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2019/10/%E5%AF%84%E5%AD%98-%E7%BC%93%E5%AD%98-%E8%BD%AF%E5%AD%98-%E7%A1%AC%E5%AD%98-%E5%A4%96%E5%AD%98/</guid>
+      <description>速度 寄存&amp;gt;缓存&amp;gt;软存&amp;gt;硬存&amp;gt;外存</description>
+    </item>
+    
+    <item>
+      <title>匿名函数</title>
+      <link>https://mistethereal.github.io/2019/10/%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2019/10/%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0/</guid>
+      <description>匿名函数是不必费心取名的函数，它使代码看上去简洁，但可能降低可读性
+以Scala为例：
+标准函数写法： def addOne = new Function1[Int,Int]{ def apply(x:Int):Int = x+1; }  匿名函数写法： var addOne = (x:Int) =&amp;gt; x+1  注：
+Scala声明方法和函数分别使用def和var/val，函数声明无须声明返回类型
+Function1表示函数输入参数数量为1</description>
+    </item>
     
     <item>
       <title>绝别伊甸</title>
@@ -20,9 +42,10 @@
       <description> 尾声 三月12日，岚皇高中主教学楼前
 或许是双树之战影响了日本的气候，今年的樱花盛开的比往年都要早，三月伊始便已樱落缤纷，花瓣在微风的轻抚下缓缓飘落，好像一个个精灵在空中旋转舞动，似雪如蝶，为原本略显沉闷的校舍缀上了一抹粉色的跃动。
 今天是高考公榜日，大群学生挤在教学楼前焦急的搜索着自己的姓名。而在教学楼另一侧，两个人影一前一后，从侧门缓缓步出校园。
-“啊……能通过真是太幸运了。”走在后面的JY略带余悸的仰天轻叹，“毕竟我们都半年多没来学校了，真的担心会没法通过。”
-“假如按照我们的出勤天数，恐怕连考试的资格都没有，是ZH帮忙动用了上头的关系拿到的参考资格，若这样再通不过也不用拯救世界了。”身为优等不良生的ZG满不在乎的说道。
-“也是，”JY将考试成绩放进书包，“还特地请了ZM先生为我们作突击辅导，要是没通过，得向他跪地谢罪了。”
+“啊……能通过真是太幸运了。”走在后面的JY略带余悸的仰天轻叹，“半年多没来学校，真担心通不过。”
+“按照我们的出勤天数，连考试资格都没，ZH帮忙动用上头关系拿到的资格，这样还通不过就不用拯救世界了。”身为优等不良生的ZG满不在乎的说道。
+“也是，”JY将考试成绩放进书包，“连ZM先生都特地为我们作突击辅导，若是没通过，恐怕得向他跪地谢罪了。”
+to be continued……
 初始 </description>
     </item>
     

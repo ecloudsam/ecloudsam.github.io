@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer on 烟波浩渺</title>
+    <link>https://mistethereal.github.io/tags/computer/</link>
+    <description>Recent content in Computer on 烟波浩渺</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mistethereal.github.io/tags/computer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>寄存-缓存-软存-硬存-外存</title>
+      <link>https://mistethereal.github.io/2019/10/%E5%AF%84%E5%AD%98-%E7%BC%93%E5%AD%98-%E8%BD%AF%E5%AD%98-%E7%A1%AC%E5%AD%98-%E5%A4%96%E5%AD%98/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2019/10/%E5%AF%84%E5%AD%98-%E7%BC%93%E5%AD%98-%E8%BD%AF%E5%AD%98-%E7%A1%AC%E5%AD%98-%E5%A4%96%E5%AD%98/</guid>
+      <description>速度 寄存&amp;gt;缓存&amp;gt;软存&amp;gt;硬存&amp;gt;外存</description>
+    </item>
+    
+  </channel>
+</rss>
