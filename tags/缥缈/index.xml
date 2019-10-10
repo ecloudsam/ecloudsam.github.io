@@ -133,7 +133,14 @@ Linux硬盘GPT分区  parted /dev/sda
 控制面板-Nvidia控制面板-管理3D设置-程序设置-自定义程序中添加游戏-OpenGL渲染改为独显
 根证书 Windows+R，然后输入certmgr.msc
 受信任的根证书颁发机构-证书，找到“ROOTCA”，右键属性，选择“禁用此证书的所有目的”
-LibreOffice禁用OpenGL 工具-选项-LibreOffice-视图，“为所有渲染使用OpenGL”不勾选</description>
+LibreOffice禁用OpenGL 工具-选项-LibreOffice-视图，“为所有渲染使用OpenGL”不勾选
+Photoshop抠图 双击图层，点击确定（解锁图层）
+左下角工具栏点击“以快速蒙板模式编辑”
+按B调用画笔，涂抹人像，完成后再次点击“以快速蒙板模式编辑”
+反向选中人像区域，点击“调整边缘”
+勾选“智能半径”和“净化颜色”，涂抹人像与背景交界处，完成后点击确定
+右下角新建图层，拖至图层底部，作为背景
+调用油漆桶工具，用白色前景色填充背景图层</description>
     </item>
     
   </channel>
