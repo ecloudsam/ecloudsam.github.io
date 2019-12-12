@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LeetCode on 烟波浩渺</title>
@@ -28,10 +28,10 @@ Solution：  import ( &amp;quot;math&amp;quot; ) func reverse(x int) int { sign 
       <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mistethereal.github.io/2019/07/leetcode-go-1-two-sum/</guid>
-      <description> Example: Given nums = [2, 7, 11, 15], target = 9,
+      <description>Example: Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
-Solution：  func twoSum(nums []int, target int) []int { // index是初始为空，以给定数组nums的数值为键、序数为值的map字典，长度和nums一样 index := make(map[int]int, len(nums)) // 对于数组nums中逐个序数为j的数b for j, b := range nums { // 搜索字典index中（初始为空）是否包含与target-b相等的数；若能找到则返回序数数组[i, j] if i, ok := index[target-b]; ok { return []int{i, j} } // 没找到的情况下，将键值对b和j存入字典index，用于下一次搜索，故本质是利用index逐个复制数组nums，执行前向搜索 // 注意，下行代码不能置于搜索之前，否则当target-b=b时会因重复取用b而bug index[b] = j } return nil }  </description>
+Solution：  func twoSum(nums []int, target int) []int { // index是初始为空，以给定数组nums的数值为键、序数为值的map字典，长度和nums一样 index := make(map[int]int, len(nums)) // 对于数组nums中逐个序数为j的数b for j, b := range nums { // 搜索字典index中（初始为空）是否包含与target-b相等的数；若能找到则返回序数数组[i, j] if i, ok := index[target-b]; ok { return []int{i, j} } // 没找到的情况下，将键值对b和j存入字典index，用于下一次搜索，故本质是利用index逐个复制数组nums，执行前向搜索 // 注意，下行代码不能置于搜索之前，否则当target-b=b时会因重复取用b而bug index[b] = j } return nil } </description>
     </item>
     
   </channel>

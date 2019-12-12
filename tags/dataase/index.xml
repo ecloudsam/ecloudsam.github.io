@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dataase on 烟波浩渺</title>
@@ -19,7 +19,7 @@
       <guid>https://mistethereal.github.io/2019/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83/</guid>
       <description>3项以下，同行
 3项及上，换行缩进
-采用&amp;rsquo;而非&amp;rdquo;
+采用&#39;而非&amp;rdquo;
 采用!=而非&amp;lt;&amp;gt;
 采用inner join而非join
 命名采用全小写加下划线

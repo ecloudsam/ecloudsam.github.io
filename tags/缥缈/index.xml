@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>缥缈 on 烟波浩渺</title>
@@ -50,11 +50,9 @@
 181025 双书名号《》书名
 单书名号&amp;lt;&amp;gt;章名
 顿号、数字序号后
-分号；并列递进句
-双引号“”言语
+分号；并列递进句 双引号“”言语
 单引号‘’想法
-省略号……意犹未尽
-圆括号（）备注
+省略号……意犹未尽 圆括号（）备注
 方括号[]人名地名
 181101  敌之尖刀，吾之伤药。死地后生，回光返照。
 敌强我退，敌弱我追。敌我相当，攻其不备。
@@ -119,8 +117,8 @@ Recall：测出率（实际好/坏人中被找出了多少）</description>
       <description>Windows禁止休眠 系统无人值守时睡眠时间的设定，默认是2分钟。解决方法：
 1.运行注册表管理器，win+r ，输入regedit.exe
 2.定位到
-&amp;gt;HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0
-3.修改attributes的值为2
+ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0
+ 3.修改attributes的值为2
 4.进入高级电源设置，在睡眠选项中会出现“无人参与系统睡眠超时”，将默认的2分钟修改成你想要的时间
 隐写术 先制作一个1.zip，把想要隐藏的东西放进去
 再找一张jpg图片2.jpg，然后执行命令：copy /b 2.jpg+1.zip output.jpg

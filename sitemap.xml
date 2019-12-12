@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://mistethereal.github.io/tags/computer/</loc>
     <lastmod>2019-10-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mistethereal.github.io/post/</loc>
     <lastmod>2019-10-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mistethereal.github.io/tags/</loc>
     <lastmod>2019-10-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -28,19 +25,16 @@
   <url>
     <loc>https://mistethereal.github.io/</loc>
     <lastmod>2019-10-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mistethereal.github.io/tags/coding/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mistethereal.github.io/tags/scala/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -51,7 +45,6 @@
   <url>
     <loc>https://mistethereal.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -62,7 +55,6 @@
   <url>
     <loc>https://mistethereal.github.io/tags/dataase/</loc>
     <lastmod>2019-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -73,7 +65,6 @@
   <url>
     <loc>https://mistethereal.github.io/tags/database/</loc>
     <lastmod>2019-08-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -89,7 +80,6 @@
   <url>
     <loc>https://mistethereal.github.io/tags/%E5%AD%97%E8%AF%8D/</loc>
     <lastmod>2019-08-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -100,13 +90,11 @@
   <url>
     <loc>https://mistethereal.github.io/tags/go/</loc>
     <lastmod>2019-07-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mistethereal.github.io/tags/leetcode/</loc>
     <lastmod>2019-07-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -127,7 +115,6 @@
   <url>
     <loc>https://mistethereal.github.io/tags/git/</loc>
     <lastmod>2018-12-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -168,7 +155,6 @@
   <url>
     <loc>https://mistethereal.github.io/tags/%E7%BC%A5%E7%BC%88/</loc>
     <lastmod>1024-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -188,7 +174,6 @@
   
   <url>
     <loc>https://mistethereal.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

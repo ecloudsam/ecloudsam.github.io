@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scala on 烟波浩渺</title>
@@ -19,7 +19,7 @@
       <guid>https://mistethereal.github.io/2019/10/%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0/</guid>
       <description>匿名函数是不必费心取名的函数，它使代码看上去简洁，但可能降低可读性
 以Scala为例：
-标准函数写法： addOne = new Function1[Int,Int]{ def apply(x:Int):Int = x+1; }  匿名函数写法： var addOne = (x:Int) =&amp;gt; x+1  注：
+标准函数写法： addOne = new Function1[Int,Int]{ def apply(x:Int):Int = x+1; } 匿名函数写法： var addOne = (x:Int) =&amp;gt; x+1 注：
 Scala声明方法和函数分别使用def和var/val，函数声明无须声明返回类型
 Function1表示函数输入参数数量为1</description>
     </item>

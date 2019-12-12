@@ -84,25 +84,16 @@
                                 <p></p>
                             </header>
                             
-                            
-
-<p>匿名函数是不必费心取名的函数，它使代码看上去简洁，但可能降低可读性<br />
+                            <p>匿名函数是不必费心取名的函数，它使代码看上去简洁，但可能降低可读性<br>
 以Scala为例：</p>
-
-<h3 id="标准函数写法">标准函数写法：</h3>
-
+<h3 id="heading">标准函数写法：</h3>
 <pre><code>addOne = new Function1[Int,Int]{  
     def apply(x:Int):Int = x+1;  
 } 
-</code></pre>
-
-<h3 id="匿名函数写法">匿名函数写法：</h3>
-
+</code></pre><h3 id="heading-1">匿名函数写法：</h3>
 <pre><code>var addOne = (x:Int) =&gt; x+1
-</code></pre>
-
-<p>注：<br />
-Scala声明方法和函数分别使用def和var/val，函数声明无须声明返回类型<br />
+</code></pre><p>注：<br>
+Scala声明方法和函数分别使用def和var/val，函数声明无须声明返回类型<br>
 Function1表示函数输入参数数量为1</p>
 
 

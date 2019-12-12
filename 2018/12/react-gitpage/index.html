@@ -84,57 +84,30 @@
                                 <p></p>
                             </header>
                             
-                            <p>GitHub网站上新建三空repo（readme，gitignore，licnese）<br />
-<br/></p>
-
+                            <p>GitHub网站上新建三空repo（readme，gitignore，licnese）<br>
+<!-- raw HTML omitted --></p>
 <p>新建名为YYY的React应用</p>
-
 <pre><code>create-react-app YYY
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>进入YYY文件夹，安装gh-pages包</p>
-
 <pre><code>npm install gh-pages --save-dev
-</code></pre>
-
-<p><br/></p>
-
-<p>修改package.json文件：<br />
+</code></pre><!-- raw HTML omitted -->
+<p>修改package.json文件：<br>
 根字典中添加（XXX为github用户名，YYY为repo名）：</p>
-
 <pre><code>&quot;homepage&quot;: &quot;http://XXX.github.io/YYY&quot;
-</code></pre>
-
-<p>Script字典中添加：</p>
-
+</code></pre><p>Script字典中添加：</p>
 <pre><code>&quot;predeploy&quot;: &quot;npm run build&quot;,
 &quot;deploy&quot;: &quot;gh-pages -d build&quot;
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>git化当前文件夹</p>
-
 <pre><code>git init
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>配置上传的远程位置，XXX为github用户名，YYY为repo名</p>
-
 <pre><code>git remote add origin https://github.com/XXX/YYY.git
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>上传</p>
-
 <pre><code>npm run deploy
-</code></pre>
-
-<p><br/></p>
+</code></pre><!-- raw HTML omitted -->
 
 
                             

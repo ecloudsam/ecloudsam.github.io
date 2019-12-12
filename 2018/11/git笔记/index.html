@@ -85,81 +85,39 @@
                             </header>
                             
                             <p>查看Git配置</p>
-
 <pre><code>git config --list
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>配置Git帐号</p>
-
 <pre><code>git config --global user.name &quot;XXX&quot;  
 git config --global user.email &quot;XXX@XXX.XXX&quot;
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>生成密钥（将id_rsa.pub中的内容复制到GitHub的SSH Key中）</p>
-
 <pre><code>ssh-keygen -t rsa -C &quot;XXX@XXX.XXX&quot;
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>测试是否成功连接到GitHub</p>
-
 <pre><code>ssh -T git@github.com
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>git化当前文件夹</p>
-
 <pre><code>git init
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>配置上传的远程位置，XXX为github用户名，YYY为repo名</p>
-
 <pre><code>git remote add origin git@github.com:XXX/YYY.git
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>（上一步输入错误时）移除当前设置的上传目录</p>
-
 <pre><code>git remote rm origin
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>暂存本地所有改动</p>
-
 <pre><code>git add -A
-</code></pre>
-
-<p><br /></p>
-
+</code></pre><p><!-- raw HTML omitted --></p>
 <p>认可本地所有改动，备注为none</p>
-
 <pre><code>git commit -a -m &quot;none&quot;
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>上传</p>
-
 <pre><code>git push
-</code></pre>
-
-<p><br/></p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>强制push</p>
-
 <pre><code>git push -u origin master -f
 </code></pre>
-
 
                             
                             
