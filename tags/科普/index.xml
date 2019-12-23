@@ -24,5 +24,17 @@
 液体和气体太过松散，没有抖动弹性（无法切向复原），故不能传递横波</description>
     </item>
     
+    <item>
+      <title>寄存-缓存-软存-硬存</title>
+      <link>https://mistethereal.github.io/2019/10/%E5%AF%84%E5%AD%98-%E7%BC%93%E5%AD%98-%E8%BD%AF%E5%AD%98-%E7%A1%AC%E5%AD%98/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2019/10/%E5%AF%84%E5%AD%98-%E7%BC%93%E5%AD%98-%E8%BD%AF%E5%AD%98-%E7%A1%AC%E5%AD%98/</guid>
+      <description>速度vs大小 寄存：Register-1ns-1KB
+缓存：Cache-10ns-10MB
+软存：RAM-100ns-10GB
+硬存：HardDisk-10ms-1TB</description>
+    </item>
+    
   </channel>
 </rss>
