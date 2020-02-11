@@ -459,9 +459,7 @@ git push -u origin master -f </description>
 单引号‘’想法
 省略号……意犹未尽 圆括号（）备注
 方括号[]人名地名
-181101  敌之尖刀，吾之伤药。死地后生，回光返照。
-敌强我退，敌弱我追。敌我相当，攻其不备。
- 181118 Internet模型：连接，联网，传输，应用
+181118 Internet模型：连接，联网，传输，应用
 OSDB模型：操作系统（operating system），网络服务（web server），数据库（database），后端（backend）
 181206 韧度：抗断裂
 刚度：抗变形
@@ -469,7 +467,9 @@ OSDB模型：操作系统（operating system），网络服务（web server）�
 硬度：抗磨损
 181207  伟者，奇也
 劲者，彊也
- 181208 VBD模型：界面View，行为Behavior，数据Data</description>
+ 181208 VBD模型：界面View，行为Behavior，数据Data
+181213 Linux分区：efi区（1G，efi），/root区（200G，ext4），swap区（8G以下同内存，swap），无挂载区（剩余空间，ext4）
+Linux快捷键：Alt+X窗口最大化，Alt+C窗口关闭，Alt+Q截图，Win+Z主目录，Win+X浏览器，Win+C指令壳，Win+L锁屏，Win+D桌面，Ctrl+Space输入法切换 LibreOffice快捷键：Alt+.</description>
     </item>
     
     <item>
@@ -511,7 +511,13 @@ Var与CVaR 99%把握损失VaR以内；若1%不幸发生，将损失CVaR
 分类与回归 分类是类预测，回归是值预测
 Precision与Recall Accuracy：正确率（预测的全部好坏中猜对了多少）
 Precision：测中率（预测的好/坏人中猜对了多少）
-Recall：测出率（实际好/坏人中被找出了多少）</description>
+Recall：测出率（实际好/坏人中被找出了多少）
+比特率与分辨率 帧率：流畅度
+码率（比特率）：清晰度（边际递减）
+分辨率：尺寸
+高清与超清 高清HD：720
+全清FH：1080
+超清UH：1080+</description>
     </item>
     
     <item>
