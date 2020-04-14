@@ -22,8 +22,8 @@
 窃：从洞里把米拿走
 魅：吸引人的鬼
 媚：取悦人的美
-鬼：似人非人
-妖：异常媚惑
+鬼：人后非人
+妖：媚惑反常
 精：凝华之体
 灵：内化之气
 士：美德者
@@ -37,8 +37,8 @@
       
       <guid>https://mistethereal.github.io/2019/08/%E8%8B%B1%E6%96%87%E8%AF%8D%E8%AF%91/</guid>
       <description>ethereal：缥缈 ethereal——αἰθέριος（希腊语）——如空气般轻薄微妙
-lich：巫尸 lich——corpse（古英语）——尸
-lich——undead by necromancy——靠死灵法术而不死
+lich：巫妖 lich——corpse（古英语）——尸体
+lich——undead by necromancy——靠死灵法术而不死的异物
 necro——death——死
 gollum：咕噜 gollum（喉音）
 smeagol——smeah（古英语）——潜入
@@ -54,10 +54,11 @@ byte：位节（二进制数组，通常一组8个）
 Jacobi，Hesse Jacobi：雅口比
 Hesse：黑瑟
 Holmes Holmes：侯姆斯
-Herald，Harbinger Herald：喜兆
-Harbinger：厄兆
+Herald，Harbinger Herald：前兆
+Harbinger：预兆
 Knight，Rider Knight：骑士
-Rider：骑兵</description>
+Rider：骑兵
+gargoyle：雨石像 gargouille（法语）-喉咙-建筑上用于排雨的石像</description>
     </item>
     
   </channel>
