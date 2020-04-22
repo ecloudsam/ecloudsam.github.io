@@ -6,10 +6,24 @@
     <description>Recent content in Coding on 烟波浩渺</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mistethereal.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MarkDown</title>
+      <link>https://mistethereal.github.io/2020/04/markdown/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mistethereal.github.io/2020/04/markdown/</guid>
+      <description>换行：&amp;lt;br&amp;gt; 示范&amp;lt;br&amp;gt; 示范 示范示范
+换行：双空格单回车 示范 示范 示范
+示范
+换段落：双回车 示范 示范 示范
+示范
+建议： 单回车换行，&amp;mdash;行线，***空行，所有编辑器默认折行</description>
+    </item>
     
     <item>
       <title>匿名函数</title>
