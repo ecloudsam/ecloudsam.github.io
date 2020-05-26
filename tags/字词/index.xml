@@ -20,9 +20,9 @@
       <description>火文=Ignis~Engnese=English+Chinese
 语音基于英语和日语，文法基于中文，文字基于英文
 [语音]
-单元音：a(啊)，i(咿)，u(呜)，e，o(哦)，r(呃)
-双元音：ai(唉)，au，ao(噢)，ei(诶)
-辅音：b，c，d，f，g，h，j，k，l，m，n，p，q，r，s，t，v，w，x，y，z
+单元音：a(啊/father)，i(咿/bit)，u(呜/do)，e(bet/cat)，o(哦/go/settle)，r(呃/sir)
+双元音：ai(唉/buy)，au(啊呜/how)，ao(噢/always)，ei(诶/bay)
+辅音：b，c(its)，d，f，g(geek)，h，j(g)，k，l，m，n，p，q(cheap)，r，s，t，v，w，x，y，z
 [文法]
 书写依照读音，单元音双写表长音
 辅音默认发i音，但书写仍须加i
@@ -36,12 +36,12 @@
 动词将来时无变化，仅前置wi
 形容词和动词用作名词时无变化
 否定统一前置no，疑问统一后置ya?
-序数统一前置nanbr
+序数统一前置zi
 长数五位节
 [文义]
 a:我，i:一，u:你，e:的，o:他
 es:是，is:们，no:不，en:和，oi:它
-1:i，2:du，3:sa，4:xi，5:fi，6:lu，7:qi，8:ba，9:na，10:ti
+1:i，2:tu，3:sa，4:xi，5:fi，6:lu，7:qi，8:ba，9:na，10:ti
 0:lin，100:han，1000:san，10000:man，100000:fin
 [范例]
 火文：A hev i driim zet wan dei zis lengeij wi rais ap en liv aut oi e Zen: &amp;ldquo;oi bi krieit fr klir en iizi.&amp;rdquo;
